@@ -1,0 +1,95 @@
+body{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana;
+    background-color: #000000;
+    color: white;
+    margin: 0;
+    height: 100vh;
+    cursor:default;
+}
+
+a{
+    color:inherit;
+    font-size: 2vh;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    width: 20em;
+}
+
+#logo > img{
+    position: relative;
+    width: 25vh;
+    height: 20vh;
+    left: 6vh;
+}
+
+#title{
+    margin-top: -4vh;
+}
+
+p{
+    font-size: 2vh;
+    margin:0;
+    padding: 0;
+}
+
+#lorenzos{
+    position: relative;
+    top: 4vh;
+}
+
+#cano{
+    font-size: 8vh;
+    font-family: Verdana Bold;
+    width: 60%;
+}
+
+sup{
+    color: orangered;
+    font-weight: normal;
+    font-family: Verdana;
+}
+
+#underc{
+    position: relative;
+    bottom: 1vh;
+}
+
+#progressbar{
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 240px;
+    height:20px;
+    overflow: hidden;
+}
+
+#botleft{
+    display: block;
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+}
+
+#botright{
+    display: block;
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    font-family: Verdana Bold Italic;
+}
+
+canvas{
+    display: block;
+}
