@@ -1,5 +1,6 @@
 window.onload = function(){
     dibujarBarra('progressbar');
+    tituloDinamico();
 }
 
 
@@ -18,3 +19,14 @@ function dibujarBarra(id){
 
 }
 
+function tituloDinamico(){
+    setTimeout(function(){
+        document.title="> cano.sh_"
+        setTimeout(function(){
+            document.title="> cano.sh";
+        tituloDinamico();
+        },1000);
+    },1000);
+    
+    
+}
