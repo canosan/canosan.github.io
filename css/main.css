@@ -21,11 +21,10 @@ a:link{
 }
 
 #logo{
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
-    width: 20em;
 }
 
 #logo > img{
