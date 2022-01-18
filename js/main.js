@@ -21,9 +21,9 @@ function dibujarBarra(id){
 
 function tituloDinamico(){
     setTimeout(function(){
-        document.title="> cano.sh_"
+        document.title+="_"
         setTimeout(function(){
-            document.title="> cano.sh";
+            document.title= document.title.slice(0, -1);
         tituloDinamico();
         },1000);
     },1000);

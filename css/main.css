@@ -20,6 +20,10 @@ a:link{
     text-decoration: none;
 }
 
+a:hover{
+    text-decoration: underline;
+}
+
 #logo{
     display: inline-flex;
     justify-content: center;
