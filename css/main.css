@@ -13,7 +13,7 @@ body{
 
 a{
     color:inherit;
-    font-size: 2vh;
+    font-size: 1.25rem;
 }
 
 a:link{
@@ -33,9 +33,9 @@ a:hover{
 
 #logo > img{
     position: relative;
-    width: 25vh;
-    height: 20vh;
-    left: 6vh;
+    width: 16rem;
+    height: 12.4rem;
+    left: 3.4rem;
 }
 
 #title{
@@ -43,18 +43,18 @@ a:hover{
 }
 
 p{
-    font-size: 2vh;
+    font-size: 1.2rem;
     margin:0;
     padding: 0;
 }
 
 #lorenzos{
     position: relative;
-    top: 4vh;
+    top: 2.5rem;
 }
 
 #cano{
-    font-size: 8vh;
+    font-size: 4.5rem;
     font-family: Verdana Bold;
     width: 60%;
 }
@@ -67,7 +67,7 @@ sup{
 
 #underc{
     position: relative;
-    bottom: 1vh;
+    bottom: 0.5rem;
 }
 
 #progressbar{
@@ -83,6 +83,7 @@ sup{
     position: absolute;
     bottom: 12px;
     left: 12px;
+    font-size: 1rem !important;
 }
 
 #botright{
