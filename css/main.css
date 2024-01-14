@@ -71,8 +71,9 @@ sup{
 }
 
 #progressbar{
-    border: 1px solid gray;
-    border-radius: 5px;
+    margin-top: 4rem;
+    border: 2px solid gray;
+    border-radius: 7px;
     width: 240px;
     height:20px;
     overflow: hidden;
